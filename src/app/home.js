@@ -26,20 +26,31 @@ const links = [
     );
   }
   
-  export function About() {
+  export function Home() {
     return (
     <>
    
-        <div className="relative isolate overflow-hidden bg-gray-900 py-24 drop-shadow-3xl" >
-          {/* <img
-            src="/background.png"
-            alt=""
-            className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-          /> */}
+        <div className="relative  isolate overflow-hidden bg-gray-900 py-24 drop-shadow-3xl" >
+
+        {/* <div class="relative mix-blend-overlay">
+          <img src="/background.png" alt="BannerImage" class="absolute h-[70vh] lg:h-[80vh] w-full object-cover object-right opacity-0 " />
+          <div class="absolute -z-10 bg-gradient-to-t from-white via-black to-black h-[70vh] lg:h-[80vh] w-full" />
+        </div> */}
+
+        <div className=''>
+          <img
+              src="/background.png"
+              alt=""
+              className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-20"
+            />
+          
+        </div>
+
+
          <div className="text-center">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-7xl lg:mx-0">
-                    <h1 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+                    <h1 className="text-1xl font-normal tracking-tight text-white sm:text-5xl">
                     Find your next flatmate in a heartbeat!
                     </h1>
                    

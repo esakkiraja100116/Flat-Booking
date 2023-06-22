@@ -1,13 +1,13 @@
 import './globals.css';
-import { Template } from './template';
-import { About } from './home';
+import { Navbar } from './navbar';
+import { Home } from './home';
 
 export default function RootLayout() {
   return (
     <html lang="en">
       <body>
-        <Template/>
-        <About/>
+        <Navbar/>
+        <Home/>
       </body> 
     </html>
   )
