@@ -1,0 +1,6 @@
+--2023-06-22 00:44:12--  https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fresponsive-image.png
+Resolving nextjs.org (nextjs.org)... 64:ff9b::4c4c:1562, 64:ff9b::4c4c:15f1, 76.76.21.22, ...
+Connecting to nextjs.org (nextjs.org)|64:ff9b::4c4c:1562|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2023-06-22 00:44:14 ERROR 400: Bad Request.
+
