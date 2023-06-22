@@ -19,7 +19,7 @@ const links = [
     return (
         <button
                 type="submit"
-                className="m-6 flex-none rounded-full bg-indigo-500 p-5 tracking-wider text-md font-medium text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="m-6 flex-none rounded-full bg-indigo-500 p-3 tracking-wider sm:text-md font-sm text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 Create a listing room for free
         </button>
