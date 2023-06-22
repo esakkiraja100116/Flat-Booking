@@ -37,14 +37,14 @@ const links = [
           <div class="absolute -z-10 bg-gradient-to-t from-white via-black to-black h-[70vh] lg:h-[80vh] w-full" />
         </div> */}
 
-        <div className=''>
+        {/* <div className=''>
           <img
               src="/background.png"
               alt=""
               className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-20"
             />
           
-        </div>
+        </div> */}
 
 
          <div className="text-center">
