@@ -59,8 +59,7 @@ const links = [
                 <p className="mt-8 text-lg leading-8 text-gray-300">
                         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                         lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                        fugiat aliqua em cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                        fugiat aliqu.
+                        fugiat aliqua em cupidatat commodo. Elit sunt amet fugiat veniam Esakkiraja.
                 </p>
 
                 <div className="sm:grid sm:grid-cols-2 gap-x-3  gap-y-1">
