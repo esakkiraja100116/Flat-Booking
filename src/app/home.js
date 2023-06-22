@@ -30,7 +30,7 @@ const links = [
     return (
     <>
    
-        <div className="relative isolate overflow-hidden bg-gray-900 py-40 mt-0 drop-shadow-2xl" >
+        <div className="relative isolate overflow-hidden bg-gray-900 py-24 drop-shadow-3xl" >
           {/* <img
             src="/background.png"
             alt=""
@@ -39,13 +39,13 @@ const links = [
          <div className="text-center">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-7xl lg:mx-0">
-                    <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
+                    <h1 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
                     Find your next flatmate in a heartbeat!
                     </h1>
                    
                 </div>
 
-                <div className="rounded-3xl mt-10 p-5 bg-rose-50 grid sm:grid-cols-3 gap-x-8 gap-y-3">
+                <div className="rounded-3xl mt-10 p-10 bg-rose-50 grid sm:grid-cols-3 gap-x-8 gap-y-3">
                     <div>
                         <SelectRoom/> 
                     </div>
@@ -56,13 +56,13 @@ const links = [
                         <SelectRoom/> 
                     </div>
                 </div> 
-                <p className="mt-8 text-lg leading-8 text-gray-300">
+                <p className="mt-10 text-lg leading-8 text-gray-300">
                         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                         lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                         fugiat aliqua em cupidatat commodo. Elit sunt amet fugiat veniam Esakkiraja.
                 </p>
 
-                <div className="sm:grid sm:grid-cols-2 gap-x-3  gap-y-1">
+                <div className="sm:grid sm:grid-cols-2 gap-x-3 mt-5 gap-y-1">
                     <div className='sm:text-right' >
                         <ExploreBtn/>  
                     </div>
