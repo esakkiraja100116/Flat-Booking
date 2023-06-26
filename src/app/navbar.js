@@ -65,7 +65,6 @@ export function Navbar() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-8">
           
-
           {navigation.map((item) => (
                      <a
                        key={item.name}

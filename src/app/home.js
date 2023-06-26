@@ -1,4 +1,4 @@
-import { SelectRoom } from './home/select'
+import { InputField, SelectRoom } from './home/select'
 import { Team } from './home/team'
 import { Service } from './home/service'
 
@@ -25,6 +25,22 @@ const links = [
         </button>
     );
   }
+
+
+  export function SearchBtn(){
+    return (
+      <>
+      <p className='text-center'>
+      <button type="submit" class="flex items-center justify-center rounded-full text-semibold bg-green-400 p-3 pr-10 text-xl mx-auto w-full sm:text-md font-lg text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+  Search
+</button>
+
+      </p>
+        
+      </>
+      
+    );
+  }
   
   export function Home() {
     return (
@@ -35,9 +51,9 @@ const links = [
         {/* <div class="relative mix-blend-overlay">
           <img src="/background.png" alt="BannerImage" class="absolute h-[70vh] lg:h-[80vh] w-full object-cover object-right opacity-0 " />
           <div class="absolute -z-10 bg-gradient-to-t from-white via-black to-black h-[70vh] lg:h-[80vh] w-full" />
-        </div> */}
+        </div> */} 
 
-        {/* <div className=''>
+       {/* <div className=''>
           <img
               src="/background.png"
               alt=""
@@ -56,16 +72,19 @@ const links = [
                    
                 </div>
 
-                <div className="rounded-3xl mt-10 p-10 bg-rose-50 grid sm:grid-cols-3 gap-x-8 gap-y-3">
+                <div className="rounded-3xl mt-10 p-10 bg-rose-50 ">
+                    <div className=' grid sm:grid-cols-3 gap-x-14 gap-y-3'>
                     <div>
                         <SelectRoom/> 
                     </div>
                     <div>
-                        <SelectRoom/> 
+                        <InputField/> 
                     </div>
-                    <div>
-                        <SelectRoom/> 
+                    <div className='mt-7'>
+                        <SearchBtn/> 
                     </div>
+                    </div>
+
                 </div> 
                 <p className="mt-10 text-lg leading-8 text-gray-300">
                         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui

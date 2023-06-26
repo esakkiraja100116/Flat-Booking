@@ -1,6 +1,7 @@
 import './globals.css';
 import { Navbar } from './navbar';
 import { Home } from './home';
+import { Test } from './test';
 
 export default function RootLayout() {
   return (
@@ -8,6 +9,7 @@ export default function RootLayout() {
       <body>
         <Navbar/>
         <Home/>
+        {/* <Test/> */}
       </body> 
     </html>
   )
