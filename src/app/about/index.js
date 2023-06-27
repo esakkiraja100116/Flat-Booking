@@ -93,12 +93,12 @@ export function About() {
         <h2 className='md:hidden  mt-5 text-center font-medium text-4xl'>About Flatpulse </h2>
         <div class="grid md:grid-cols-2 mx-auto flex items-center space-x-1 lg:max-w-7xl">
         
-            <div className='flex gap-10 p-5'>
+            <div className='flex gap-3 p-5'>
            
                 <img src="/about_1.png" alt="/about_1.png" className="hidden md:block rounded-xl h-100 w-60 object-cover object-center mb-7" />
-                <img src="/about_1.png" alt="/about_1.png" className="md:hidden rounded-xl h-80 w-60 object-cover object-center mb-7" />
+                <img src="/about_1.png" alt="/about_1.png" className="md:hidden rounded-xl h-80 w-30 object-cover object-center mb-7" />
                 <img src="/about_2.png" alt="/about_2.png" className="hidden md:block rounded-xl h-100 w-60 object-cover object-center mt-7" />
-                <img src="/about_2.png" alt="/about_2.png" className="md:hidden rounded-xl h-80 w-60 object-cover object-center mt-7" />
+                <img src="/about_2.png" alt="/about_2.png" className="md:hidden rounded-xl h-80 w-30 object-cover object-center mt-7" />
             </div>
 
             <div className='p-5'>
