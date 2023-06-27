@@ -96,9 +96,9 @@ export function About() {
             <div className='flex gap-3 p-5'>
            
                 <img src="/about_1.png" alt="/about_1.png" className="hidden md:block rounded-xl h-100 w-60 object-cover object-center mb-7" />
-                <img src="/about_1.png" alt="/about_1.png" className="md:hidden rounded-xl h-80 w-30 object-cover object-center mb-7" />
+                <img src="/about_1.png" alt="/about_1.png" className="md:hidden rounded-xl h-80 w-25 object-cover object-center mb-7" />
                 <img src="/about_2.png" alt="/about_2.png" className="hidden md:block rounded-xl h-100 w-60 object-cover object-center mt-7" />
-                <img src="/about_2.png" alt="/about_2.png" className="md:hidden rounded-xl h-80 w-30 object-cover object-center mt-7" />
+                <img src="/about_2.png" alt="/about_2.png" className="md:hidden rounded-xl h-80 w-25 object-cover object-center mt-7" />
             </div>
 
             <div className='p-5'>
