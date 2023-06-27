@@ -13,7 +13,7 @@ module.exports = {
   theme: {
     extend: {
       width :{
-        '25' : '10rem',
+        '25' : '9rem',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
