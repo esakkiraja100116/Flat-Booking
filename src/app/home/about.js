@@ -18,11 +18,11 @@ export function About() {
 
             <div className='p-5'>
 
-                <h2 className='hidden md:block mb-8 font-medium text-4xl'>About Flatpulse </h2>
-                <p className='text-lg'>
+                <h2 className='hidden md:block mb-8 font-medium font-sans text-4xl'>About Flatpulse </h2>
+                <p className='text-lg font-sans'>
                 Welcome to Flatpulse, the premier online platform for finding and sharing flats with like-minded individuals. Our website is dedicated to providing you with the best possible experience in your search for the perfect flatmate or roommate.
                 </p>
-                <p className='text-lg mt-8'>
+                <p className='text-lg mt-8 font-sans'>
                 At Flatpulse, we understand that finding a suitable living arrangement can be a daunting task. That's why we have created a platform that is both easy to use and highly effective. Our user-friendly interface allows you to browse through a wide selection of flats, filtering by location, price range, and other preferences.
                 </p>
 

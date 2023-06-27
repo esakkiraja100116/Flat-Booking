@@ -47,7 +47,7 @@ export function Navbar() {
             <span className="sr-only">Your Company</span>
             <span className='flex items-center'>
               <img className="h-8 w-auto" src="/logo.png" alt="" />
-              <span className='ml-2 text-lg text-gray-700'>
+              <span className='ml-2 text-lg font-sans text-gray-700'>
               FlatBooking
               </span>
             </span>
