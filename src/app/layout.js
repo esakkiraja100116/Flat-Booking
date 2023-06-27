@@ -1,7 +1,7 @@
 import './globals.css';
 import { Navbar } from './navbar';
 import { Home } from './home';
-import { Test } from './test';
+import { About } from './about/index';
 
 export default function RootLayout() {
   return (
@@ -9,7 +9,7 @@ export default function RootLayout() {
       <body>
         <Navbar/>
         <Home/>
-        {/* <Test/> */}
+        <About/>
       </body> 
     </html>
   )
