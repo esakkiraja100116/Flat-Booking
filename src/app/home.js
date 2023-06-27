@@ -15,15 +15,29 @@ const links = [
     { name: "Paid time off", value: "Unlimited" },
   ];
 
-  export function ExploreBtn(){
-    return (
+  export function ExploreBtn({id}){
+    var btn;
+
+    if( id.count == 1){
+       btn = <>
         <button
                 type="submit"
-                className="m-5 flex-none rounded-full bg-indigo-500 p-3 tracking-wider sm:text-sm font-sm text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className="mt-5 flex-none rounded-full border-2 border-yellow-300 bg-yellow-400 p-4 tracking-wider font-medium font-sans sm:text-sm font-lg shadow-sm hover:border-2 hover:border-yellow-300 hover:text-yellow-400 hover:bg-black hover:bg-opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
                 Create a listing room for free
         </button>
-    );
+      </>
+    }else{
+       btn = <>
+      <button
+                type="submit"
+                className="mt-5 flex-none rounded-full bg-black bg-opacity-80 p-4 tracking-wider font-medium font-sans sm:text-sm font-lg text-yellow-400 border-2 border-yellow-300 shadow-sm hover:text-black hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+              >
+                Create a roommate profile for free
+        </button>
+      </>
+    }
+    return btn;
   }
 
 
@@ -31,7 +45,7 @@ const links = [
     return (
       <>
       <p className='text-center'>
-      <button type="submit" class="flex items-center justify-center rounded-full text-semibold bg-green-400 p-3 pr-10 text-xl mx-auto w-full sm:text-md font-lg text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
+      <button type="submit" className="flex items-center justify-center rounded-full text-semibold bg-green-400 p-3 pr-10 text-xl mx-auto w-full sm:text-md font-lg text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
   Search
 </button>
 
@@ -46,7 +60,7 @@ const links = [
     return (
     <>
    
-        <div className="relative  isolate overflow-hidden bg-gray-900 py-24 drop-shadow-3xl" >
+        <div className="relative  isolate overflow-hidden bg-black bg-opacity-600 py-24" >
 
         {/* <div class="relative mix-blend-overlay">
           <img src="/background.png" alt="BannerImage" class="absolute h-[70vh] lg:h-[80vh] w-full object-cover object-right opacity-0 " />
@@ -94,10 +108,10 @@ const links = [
 
                 <div className="sm:grid sm:grid-cols-2 gap-x-3 mt-5 gap-y-1">
                     <div className='sm:text-right' >
-                        <ExploreBtn/>  
+                        <ExploreBtn id = {{count : 1}}/>  
                     </div>
                     <div className='sm:text-left'>
-                        <ExploreBtn/> 
+                        <ExploreBtn id = {{count : 2}}/> 
                     </div>
                 </div> 
                     
