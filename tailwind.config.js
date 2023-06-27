@@ -15,6 +15,15 @@ module.exports = {
       width :{
         '25' : '9rem',
       },
+      height : {
+        '83' : '25rem',
+      },
+      borderRadius : {
+        '4xl' : '4.5rem',
+      },
+      colors : {
+        'footer-black' : '#1C1C1C',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
