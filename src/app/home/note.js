@@ -6,7 +6,7 @@ export function Note() {
   <>
   <div className="">
       <div className="pt-6 my-10 ">
-        <div class="rounded-4xl p-10 bg-yellow-300 bg-clip-content grid md:grid-cols-2 mx-auto flex items-center space-x-1 lg:max-w-7xl">
+        <div class="rounded-4xl p-10 bg-gradient-to-b from-white to-yellow-300 bg-clip-content grid md:grid-cols-2 mx-auto flex  items-center space-x-1 lg:max-w-7xl">
         
             <div className='p-12'>
 
