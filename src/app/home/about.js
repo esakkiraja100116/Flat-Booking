@@ -6,7 +6,7 @@ export function About() {
     <div className="bg-white">
       <div className="pt-6 my-5">
         <h2 className='md:hidden  mt-5 text-center font-medium text-4xl'>About Flatpulse </h2>
-        <div class="grid md:grid-cols-2 mx-auto flex items-center space-x-1 lg:max-w-7xl">
+        <div className="grid md:grid-cols-2 mx-auto flex items-center space-x-1 lg:max-w-7xl">
         
             <div className='flex gap-3 p-5'>
            

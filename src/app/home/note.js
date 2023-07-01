@@ -4,31 +4,24 @@ export function Note() {
   
   return (
   <>
-  <div className="">
-      <div className="pt-6 my-10 ">
-        <div class="rounded-4xl p-10 bg-gradient-to-b from-white to-yellow-300 bg-clip-content grid md:grid-cols-2 mx-auto flex  items-center space-x-1 lg:max-w-7xl">
-        
-            <div className='p-12'>
+     <div className="container md:flex rounded grid mx-auto mt-40 h-30 mb-16">
+         <div className=" order-2 md:order-1 w-full md:w-1/2 bg-red-400 p-5">
+             <span className="mt-40">
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia voluptatibus commodi quos a
+              impedit provident odio adipisci, blanditiis tempore consectetur accusantium. Eligendi in, 
+              voluptatem molestias at magnam ab. Quos quae nihil quo fugit omnis tenetur illum reprehenderit 
+              vitae tempore, vel aliquam! Dolorum praesentium unde ducimus ullam beatae, veniam provident labore.
 
-                <h2 className=' mb-8 font-medium text-4xl'> New to Flatsharing ? </h2>
-                <p className='text-lg'>
-                At Flatpulse, our mission is to make the process of finding a flat or a flatmate as simple and stress-free as possible. Whether you're a student, a young professional, or a seasoned traveler, we have the perfect solution for you. Join our community today and start exploring the endless possibilities of flat sharing!
-                </p>
+             </span>
+         </div>
 
-                <button className='hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-50 border rounded-full p-3 font-semibold mt-8 px-6 bg-black text-yellow-400' > Find out more ! </button>
-            </div>
+         <div className="order-1 md:order-2 w-full md:w-1/2 bg-red-400 p-6 grid grid-cols-2 md:flex relative">
+           {/* hello */}
+           <img src="/note_1.png" alt="note_1"  className="w-auto h-96 md:w-1/2 -mt-20"  />
+           <img  src="/note_2.png" alt="note_2 " className="w-auto h-96 md:w-1/2 ml-3 -mt-11"  />
 
-            <div className='flex gap-3 p-5'>
-           
-                <img src="/note_1.png" alt="/note_1.png" className="hidden md:block rounded-xl h-83 w-80 object-cover object-center mt-7" />
-                <img src="/note_1.png" alt="/note_1.png" className="md:hidden rounded-xl h-80 w-25 object-cover object-center mt-7" />
-                <img src="/note_2.png" alt="/note_2.png" className="hidden md:block rounded-xl h-83 w-80 object-cover object-center mb-7" />
-                <img src="/note_2.png" alt="/note_2.png" className="md:hidden rounded-xl h-80 w-25 object-cover object-center mb-7" />
-            </div>
-        </div>
-                
-      </div>
-  </div>
-</>
+         </div>
+       </div> 
+  </>
   )
 }
