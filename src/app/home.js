@@ -62,9 +62,9 @@ export function Home() {
   
       <div className="relative  isolate overflow-hidden bg-black bg-opacity-100 py-24" >
 
-      {/* <div class="relative mix-blend-overlay">
-        <img src="/background.png" alt="BannerImage" class="absolute h-[70vh] lg:h-[80vh] w-full object-cover object-right opacity-0 " />
-        <div class="absolute -z-10 bg-gradient-to-t from-white via-black to-black h-[70vh] lg:h-[80vh] w-full" />
+      {/* <div className="relative mix-blend-overlay">
+        <img src="/background.png" alt="BannerImage" className="absolute h-[70vh] lg:h-[80vh] w-full object-cover object-right opacity-0 " />
+        <div className="absolute -z-10 bg-gradient-to-t from-white via-black to-black h-[70vh] lg:h-[80vh] w-full" />
       </div> */} 
 
       <div className=''>
